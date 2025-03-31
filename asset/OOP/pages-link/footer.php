@@ -17,7 +17,7 @@
                 </div>
                 <p class="footer-rights">
                     <img src="asset/images/res1.png" alt="CvSU Logo" class="footer-rights-logo">
-                    All rights reserved &copy; 2024 Alumni Cavite State University
+                    All rights reserved &copy; 2025 Alumni Cavite State University
                 </p>
             </div>
         </div>

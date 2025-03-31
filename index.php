@@ -23,9 +23,9 @@ if (session_status() === PHP_SESSION_NONE) {
             --cvsu-primary-green: #006400;
             --cvsu-light-green: #90EE90;
             --cvsu-hover-green: #008000;
-            --cvsu-text-light: #ffffff;
-            --cvsu-text-dark: #333333;
-            --cvsu-gray-light: #f5f5f5;
+            --cvsu-text-light:rgb(14, 39, 10);
+            --cvsu-text-dark:rgb(26, 26, 26);
+            --cvsu-gray-light:rgb(231, 229, 229);
             --cvsu-border-color: rgba(0, 0, 0, 0.1);
             --cvsu-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
             --cvsu-shadow-md: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -61,7 +61,7 @@ if (session_status() === PHP_SESSION_NONE) {
         }
 
         .cvsu-header {
-            background-color: var(--cvsu-primary-green);
+            background: linear-gradient(135deg, #4caf50, #ffd700);
             padding: 0.75rem 0;
             box-shadow: var(--cvsu-shadow-md);
             position: sticky;
@@ -417,8 +417,8 @@ if (session_status() === PHP_SESSION_NONE) {
     <header class="cvsu-header">
         <div class="cvsu-container cvsu-header-content">
             <a href="index" class="cvsu-logo">
-                <img src="asset/images/res1.png" alt="CSU Logo">
-                <span>Alumni Cavite State University</span>
+                <img src="asset/images/res1.png" alt="CSU Logo"> 
+                <span>Cavite State University - Office of Alumni Affairs</span>
             </a>
 
             <?php if (!isset($_SESSION['user_id'])): ?>
